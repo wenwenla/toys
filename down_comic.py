@@ -99,17 +99,17 @@ class ComicDownloader(object):
         key = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
         index = 0
         for i in key:
-        	d[i] = k[index] if k[index] else i
-        	index += 1
-        	if index == lenk:
-        		break
+            d[i] = k[index] if k[index] else i
+            index += 1
+            if index == lenk:
+                break
         if index != lenk:
-        	for i in itertools.product('123456789', '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'):
-        		tmp = i[0] + i[1]
-        		d[tmp] = k[index] if k[index] else tmp
-        		index += 1
-        		if index == lenk:
-        			break
+            for i in itertools.product('123456789', '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'):
+                tmp = i[0] + i[1]
+                d[tmp] = k[index] if k[index] else tmp
+                index += 1
+                if index == lenk:
+                    break
         
         print('d: ', d)
         
