@@ -6,4 +6,4 @@
 
 # todolist
 - [ ] user friendly GUI
-- [ ] download pictures with muti-thread
+- [ ] download pictures with multi-thread
