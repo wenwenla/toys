@@ -7,3 +7,5 @@
 # todolist
 - [ ] user friendly GUI
 - [ ] download pictures with multi-thread
+
+Finished, but ...
