@@ -2,10 +2,5 @@
 
 **Just toys**
 
-- Now you can use these files and ChainLP to create comics for kindle and ipad. Try on your own risk, thanks.
-
-# todolist
-- [ ] user friendly GUI
-- [ ] download pictures with multi-thread
-
-Finished, but ...
+1. comic 漫画下载
+2. calc 计算器
